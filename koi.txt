@@ -1,23 +1,27 @@
 
 
-@first_name "Jason"
-@last_name "Linley"
-@some_boolean ? true
-@some_number = 12
-@some_decimal = 12.7
+~customers
+
+#0.named_entity
+
+	@first_name "Jason"
+	@last_name "Linley"
+	@some_boolean ? true
+	@some_number = 12
+	@some_decimal = 12.7
 
 
-@object {
-	@string "hello world"
-	@object_bool ? true
-	@object_int = 10
-	@object_dec = 12.77
+	@object {
+		@string "hello world"
+		@object_bool ? true
+		@object_int = 10
+		@object_dec = 12.77
 	
 	
-	@more_objects {
-		@popcorn ? false
-	
-	
+		@more_objects {
+			@popcorn ? false
+		
+			@reference /customers/object/string
+		}
+
 	}
-
-}
