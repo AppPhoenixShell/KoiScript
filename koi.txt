@@ -1,0 +1,7 @@
+
+
+@first_name "Jason"
+@last_name "Linley"
+@some_boolean ? true
+@some_number = 12
+@some_decimal = 12.7
