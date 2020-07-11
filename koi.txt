@@ -25,3 +25,7 @@
 		}
 
 	}
+	
+#1.record2
+	@first_name "Another Name"
+	@last_name "Lastname here"
