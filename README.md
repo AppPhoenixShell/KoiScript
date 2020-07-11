@@ -14,6 +14,7 @@ Boolean '?'
 String:  '"'
 Object:   '{'
 Number:  '='
+Object   '{'
 ```
 
 
@@ -32,6 +33,13 @@ An example object looks like this:
   @age = 22
   @has_hair ? true
   
+  @object {
+      @more ?true
+      @another = 34
+      @string "Hello World 2"
+  
+  }
+  
   
 #1
   @firstname "Anne"
@@ -39,12 +47,21 @@ An example object looks like this:
   @age = 31
   @has_hair ? true
   
+  @object {
+      @more ?true
+      @another = 12
+      @string "Hello World"
+  
+  }
+  
   
   
 KoiScript is a record based object notation system. Each file only contains 1 type of object structure
 
 the #0 defines the record id, the ~people defines the tablename or repo name to insert these objects into.
-because each token has a unique qualifying symbol there is no ambiguity about the typing
+because each token has a unique qualifying symbol there is no ambiguity about the typing.
+
+KoiScript can also have child objects
 
 A similar json looks like this:
 
